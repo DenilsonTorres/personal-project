@@ -1,0 +1,28 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="nexoraGradient" x1="0" y1="0" x2="220" y2="220"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#334CD4" />
+            <stop offset="100%" stop-color="#8B5CF6" />
+        </linearGradient>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="10" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <rect width="220" height="220" rx="40" fill="#081028" />
+
+    <path
+        d="M55 155C55 155 72 65 105 65C132 65 128 155 155 155C172 155 185 65 185 65"
+        stroke="url(#nexoraGradient)"
+        stroke-width="28"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#glow)"
+    />
+</svg>
