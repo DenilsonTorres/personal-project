@@ -1,6 +1,8 @@
 # personal-project
 
-https://trido.com.br/gerador-de-paleta-de-cores/ //cores por
+Cores: https://trido.com.br/gerador-de-paleta-de-cores/ //
+Icons: https://simpleicons.org/
+
 
 
 
